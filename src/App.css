@@ -1,0 +1,40 @@
+* {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: skyblue;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+nav a {
+  color: black;
+  padding: .5rem;
+}
+
+.selected {
+  border: 2px solid purple;
+  background-color: rgb(114, 195, 241);
+  box-shadow: 1px 1px 1px;
+  
+}
+
+.Homepage {
+  margin-left: 30px;
+}
+
+ .postBody {
+  margin-top: 5rem;
+ }
+
+ .postHeader {
+  text-align: center;
+ }
+
